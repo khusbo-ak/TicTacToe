@@ -6,7 +6,7 @@
 }
 
 body{
-    /* font-family: cursive ; */
+    
     background-color:#807773;
     color: #d1bebc;
     text-align: center;
@@ -47,4 +47,34 @@ body{
     font-size: 3vmin;
     color: #76815b;
     cursor: pointer;
+} 
+
+
+.newGameButton {
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    background-color:#f8e2e0; 
+    font-size: 3vmin;
+    color: #76815b;
+    cursor: pointer;
+}
+
+.msg{
+    font-size: 5vmin;
+    color:#f8e2e0;
+    margin-top: 2rem;
+}
+
+.msgContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+
+}
+.hide {
+    display: none;
 }
